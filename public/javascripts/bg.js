@@ -2,7 +2,7 @@ var bgs = ['IMG_1602.jpg', 'IMG_1485.jpg', 'IMG_1611.jpg', 'IMG_1580.jpg', 'IMG_
 
 var randomBackground = function(weather) {
   var curHour = (new Date()).getHours();
-  if (curHour > 17 || curHour < 7) {
+  if (curHour > 15 || curHour < 7) {
     bgs = ['IMG_1602.jpg', 'IMG_1485.jpg', 'IMG_1611.jpg', 'IMG_1580.jpg', 'IMG_1592.jpg', 'IMG_1704.jpg'];
   } else {
     bgs = ['IMG_1697.jpg']
