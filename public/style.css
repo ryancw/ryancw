@@ -1,0 +1,35 @@
+body {
+  /*background: url(images/bg_img.jpg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+  margin: 0px auto;
+  padding: 10px;
+  width: 600px;
+  background-color: rgba(255,255,255,0.75);
+}
+
+.title_card {
+  width: 300px;
+  display: inline-block;
+}
+
+.title_card ul li {
+  list-style: none;
+}
+
+.quote {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+  height: auto;
+}
+
+.quote img {
+  height: 300px;
+}
